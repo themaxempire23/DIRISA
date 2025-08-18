@@ -1,0 +1,19 @@
+{
+  "saved_at": "2025-08-18T18:15:50.432917Z",
+  "model_name": "GradientBoosting",
+  "cat_cols": [
+    "province",
+    "crime_category"
+  ],
+  "num_cols": [
+    "year",
+    "yoy_delta",
+    "roll3_mean"
+  ],
+  "target": "high_risk (count > median)",
+  "classes_": [
+    0,
+    1
+  ],
+  "version": "v1"
+}
